@@ -6,6 +6,9 @@ Welcome to the Infinite Falling Ball Game! This simple yet addictive game challe
 **How to Play:**
 
 1. **Launch the Game:** Open the HTML file in your preferred web browser to start the game.
+```bash
+git clone https://github.com/aditya06121/web-falling-ball.git
+```
 2. **Control the Ball:** Use the arrow keys to move the ball left or right.
 3. **Avoid Obstacles:** Navigate the ball through openings in the obstacles to keep it falling.
 
