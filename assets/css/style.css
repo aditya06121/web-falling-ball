@@ -1,8 +1,9 @@
 body{
-    /* CSS for the background image */
+    /* for the background image */
     background-image: url('../images/bg.jpg');
     background-size: cover;
     margin: 0;
+    max-height: 100vh;
 }
 
 .sedan-sc-regular {
@@ -18,9 +19,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     margin: 0; 
     text-align: center;
+    min-height: 100vh;
 }
 h1 {
     font-family: "Sedan SC", sans-serif;
@@ -32,9 +33,35 @@ h2 {
     font-style:italic;
     margin: 0;
 }
-h2 {
+p {
     font-family: "Sedan SC", sans-serif;
     font-size: large;
     font-style:italic;
     margin: 10;
+}
+footer{
+    padding: 0.2rem;
+    display: block;
+    font-size: 1.1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+}
+ul{
+    text-align: center;
+    padding: 0.5rem;
+}
+li{
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+.foot{
+    color: rgba(51, 19, 51, 0.805);
+}
+.foot:hover{
+    color: rgb(0, 0, 0);
+}
+.by{
+    margin: 0;
 }
